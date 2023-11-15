@@ -10,6 +10,7 @@ def AddRightDigit(D, K):
     return K
 
 
+
 A = int(input('Введите первое число: '))
 B = int(input('Введите второе число: '))
 

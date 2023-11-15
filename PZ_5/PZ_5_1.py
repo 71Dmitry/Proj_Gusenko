@@ -4,6 +4,7 @@
 '''
 
 
+
 def summ(a, b):
     s = 0
     while a <= b:
