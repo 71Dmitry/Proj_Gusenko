@@ -7,7 +7,7 @@ while i == 0:
     try:
         A = int(input('Введите первое число: '))
         B = int(input('Введите второе число: '))
-        AA = A
+        AA = A  # чисто для вывода
         S = 1
         if A < B:
             while A <= B:
