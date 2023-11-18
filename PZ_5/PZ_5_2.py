@@ -9,8 +9,6 @@ def AddRightDigit(D, K):
     K = str(K) + str(D)
     return K
 
-
-
 A = int(input('Введите первое число: '))
 B = int(input('Введите второе число: '))
 
