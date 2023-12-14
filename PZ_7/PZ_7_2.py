@@ -3,6 +3,7 @@
   Выделить из этой строки расширение файла (без предшествующей точки).
 '''
 
+
 file_name = "C:/Users/username/Documents/file.txt"
 r = file_name.split('.')[-1]
 print(r)
