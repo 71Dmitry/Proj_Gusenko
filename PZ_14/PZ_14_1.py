@@ -12,7 +12,7 @@ with open("Dostoevsky.txt", "r") as file:
     text = file.read()
 
 # Используем регулярное выражение для поиска всех годов
-years = re.findall(r'\b\d{4}\b', text)
+years = re.findall(r'\b\d{4}\b\sгод[а|у]?', text)
 
 # Выводим все найденные годы
 print('Найденные годы деятельности писателя:')
