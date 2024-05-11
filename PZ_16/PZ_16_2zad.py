@@ -23,3 +23,4 @@ print(f'Новое расширение Image3: {Image3.resolution}')
 
 Image2.title_upper()
 print(Image2.title)
+

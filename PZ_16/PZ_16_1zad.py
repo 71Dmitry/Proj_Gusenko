@@ -20,3 +20,4 @@ print(dict1.count)
 dict1.reset_count()
 print(dict1.count)
 print(dict1.__dict__)
+
